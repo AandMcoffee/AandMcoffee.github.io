@@ -10,13 +10,13 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
 html {
   background-color: #391203;
-  color: #737f8a;
+  color: white;
 }
 
 body {
   background-color: #391203;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: white;
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
@@ -29,7 +29,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: white;
 }
 
 p {
@@ -339,7 +339,7 @@ a:hover {
   color: #57cbcc;
 }
 .title p {
-  color: #666;
+  color: white;
 }
 .title.title-white h2 {
   color: #fff;
@@ -350,7 +350,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: white;
 }
 
 .overly {
@@ -1322,7 +1322,7 @@ a:hover {
   display: inline-block;
 }
 .social-profile ul li a {
-  color: #4e595f;
+  color: white;
   display: block;
   font-size: 16px;
 }
@@ -1404,8 +1404,12 @@ a:hover {
 .social-icon {
   padding: 60px 0 35px;
 }
+.social-icon ul li{
+  color: white;
+}
 .social-icon ul {
   text-align: center;
+  color: white;
 }
 .social-icon ul li {
   margin-bottom: 4px;
@@ -1421,7 +1425,8 @@ a:hover {
   transform: rotateY(0deg);
 }
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: transparent;
+  color: white;
   border: 1px solid transparent;
   display: block;
   height: 70px;
