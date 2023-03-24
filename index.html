@@ -118,7 +118,7 @@ Sticky Navigation
 <header id="navigation" class="navigation">
 <div class="container">
   <div class="navbar-header w-100">
-    <nav class="navbar navbar-expand-lg navbar-dark px-0">
+    <nav class="navbar navbar-expand-lg navbar-dark px-0" >
       <!-- logo -->
       <a class="navbar-brand logo" href="index.html">
         <img src="images/banner/logo.png" alt="Website Logo" style="width: 60px;" />
@@ -131,7 +131,9 @@ Sticky Navigation
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbar01">
+      <div class="collapse navbar-collapse" id="navbar01" data-aos="slide-down"
+	  data-aos-duration="900"
+	  data-aos-easing="ease-out-quart">
         <ul class="navbar-nav navigation-menu ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home" >Home</a>
@@ -158,21 +160,85 @@ End Sticky Navigation
 <!--
 		Start About Section
 		==================================== -->
+
+
+<section class="section about-2 padding-0 bg-dark" id="about">
+	<div class="col-12"  style="background-color: #391203;">
+		<!-- section title -->
+		<div class="title text-center wow"data-aos="zoom-in"
+		data-aos-duration="900"
+		data-aos-easing="ease-out-quart">
+			<h2>About Us<span class="color"></span> </h2>
+			<div class="border"></div>
+		</div>
+		<!-- /section title -->
+	</div>
+	<div class="container-fluid p-0">
+		<div class="row no-gutters align-items-center" style="background-color: #391203;">
+			<div class="col-lg-6">
+				<!--<img class="img-fluid" src="images/about/about-business-man.jpg" alt="">-->
+				<video id="bg_video" class="h-full w-[400px] md:scale-125 hover:brightness-50 cursor-pointer" preload="auto" autoPlay loop muted playsInline data-aos="slide-right"
+                   data-aos-duration="900"
+                   data-aos-easing="ease-out-quart" style="width: 100%; height: 70vh;">
+                    <source src="./images/Produce_11.mp4" type="video/mp4" />
+                </video>
+			</div>
+			<div class="col-lg-6">
+				<div class="content-block">
+					<h2 data-aos="slide-up"
+					data-aos-duration="900"
+					data-aos-easing="ease-out-quart">We’re Naija Blend Coffee.</h2>
+					<p data-aos="slide-up"
+					data-aos-duration="900"
+					data-aos-easing="ease-out-quart">A&M Coffee, is 100% Arabica Coffee beans grown in the North Eastern Highlands of Taraba State of Nigeria. Our beans come from organic plants and roasted to the finest quality. This product offers a unique tast and aroma with no additives that satisfies and is healthy for consumption and enjoyment of our clients
+
+					</p>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="media">
+								<div class="pull-left">
+									<i class="tf-circle-compass"></i>
+								</div>
+								<div class="media-body" data-aos="zoom-out"
+								data-aos-duration="900"
+								data-aos-easing="ease-out-quart">
+									<h4 class="media-heading">Take a Sniff of the Aroma</h4>
+									<p>A&M provides you
+										with a good quality coffee that has no rancid, sour or "off" smell.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="media" data-aos="zoom-out"
+							data-aos-duration="900"
+							data-aos-easing="ease-out-quart">
+								<div class="pull-left">
+									<i class="tf-hotairballoon"></i>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Tastes Great</h4>
+									<p>A&M provides you with the sweetest coffee you have ever tasted. You are one taste away!
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="bg-one about section">
 	<div class="container">
 		<div class="row">
 
-			<div class="col-12">
-				<!-- section title -->
-				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-					<h2>About Us<span class="color"></span> </h2>
-					<div class="border"></div>
-				</div>
-				<!-- /section title -->
-			</div>
+			
 
 			<!-- About item -->
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms">
+			<div class="col-md-4 text-center wow" data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart" >
 				<div class="block">
 					<div class="icon-box">
 						<i class="fa fa-superpowers"></i>
@@ -187,7 +253,9 @@ End Sticky Navigation
 			<!-- End About item -->
 
 			<!-- About item -->
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
+			<div class="col-md-4 text-center wow" data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="block">
 					<div class="icon-box">
 						<i class="fa fa-coffee"></i>
@@ -202,7 +270,9 @@ End Sticky Navigation
 			<!-- End About item -->
 
 			<!-- About item -->
-			<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+			<div class="col-md-4 text-center wow"data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="block kill-margin-bottom">
 					<div class="icon-box">
 						<i class="fa fa-recycle"></i>
@@ -220,60 +290,12 @@ End Sticky Navigation
 	</div> <!-- End container -->
 </section> <!-- End section -->
 
-<section class="section about-2 padding-0 bg-dark" id="about">
-	<div class="container-fluid p-0">
-		<div class="row no-gutters align-items-center" style="background-color: #391203;">
-			<div class="col-lg-6">
-				<!--<img class="img-fluid" src="images/about/about-business-man.jpg" alt="">-->
-				<video id="bg_video" class="h-full w-[400px] md:scale-125 hover:brightness-50 cursor-pointer" preload="auto" autoPlay loop muted playsInline data-aos="slide-right"
-                   data-aos-duration="2000"
-                   data-aos-easing="ease-out-quart" style="width: 100%; height: 70vh;">
-                    <source src="./images/Produce_11.mp4" type="video/mp4" />
-                </video>
-			</div>
-			<div class="col-lg-6">
-				<div class="content-block">
-					<h2>We’re Naija Blend Coffee.</h2>
-					<p>A&M Coffee, is 100% Arabica Coffee beans grown in the North Eastern Highlands of Taraba State of Nigeria. Our beans come from organic plants and roasted to the finest quality. This product offers a unique tast and aroma with no additives that satisfies and is healthy for consumption and enjoyment of our clients
-
-					</p>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="media">
-								<div class="pull-left">
-									<i class="tf-circle-compass"></i>
-								</div>
-								<div class="media-body">
-									<h4 class="media-heading">Take a Sniff of the Aroma</h4>
-									<p>A&M provides you
-										with a good quality coffee that has no rancid, sour or "off" smell.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="media">
-								<div class="pull-left">
-									<i class="tf-hotairballoon"></i>
-								</div>
-								<div class="media-body">
-									<h4 class="media-heading">Tastes Great</h4>
-									<p>A&M provides you with the sweetest coffee you have ever tasted. You are one taste away!
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section-sm bg-1 overly">
+<section class="call-to-action section-sm bg-1 overly" data-aos="zoom-in"
+data-aos-duration="900"
+data-aos-easing="ease-out-quart">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -291,7 +313,9 @@ Start Call To Action
 	<div class="container">
 		<div class="row">
 
-			<div class="col-lg-12">
+			<div class="col-lg-12"data-aos="zoom-in"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart" >
 				<!-- section title -->
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 					<h2>Our Products<span class="color"></span></h2>
@@ -302,7 +326,9 @@ Start Call To Action
 			</div>
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms">
+			<article class="col-lg-4 col-md-6 wow"data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart" >
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="fa fa-coffee"></i>
@@ -315,7 +341,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<article class="col-lg-4 col-md-6 wow" data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="fa fa-crosshairs"></i>
@@ -329,7 +357,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<article class="col-lg-4 col-md-6 wow "data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-genius"></i>
@@ -343,7 +373,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<article class="col-lg-4 col-md-6 wow "data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="fa fa-fire"></i>
@@ -357,7 +389,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<article class="col-lg-4 col-md-6 wow "data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="fa fa-female"></i>
@@ -372,7 +406,9 @@ Start Call To Action
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+			<article class="col-lg-4 col-md-6 wow" data-aos="slide-up"
+			data-aos-duration="900"
+			data-aos-easing="ease-out-quart">
 				<div class="service-block text-center kill-margin-bottom">
 					<div class="service-icon text-center">
 						<i class="tf-lifesaver"></i>
