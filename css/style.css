@@ -657,7 +657,7 @@ a:hover {
   About us 2 section
 ==================================================================*/
 .about-2 .content-block {
-  padding: 35px 40px;
+  padding: 15px 40px;
 }
 @media (max-width: 768px) {
   .about-2 .content-block {
@@ -1902,5 +1902,14 @@ blockquote {
 .form-group:last-child,
 .form-group:last-child input {
   margin: 0;
+}
+.coffee{
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: -100px;
+}
+.coffee img{
+  margin-top: -80px;
 }
 /*# sourceMappingURL=style.css.map */
